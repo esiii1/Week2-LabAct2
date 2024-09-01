@@ -108,4 +108,6 @@ $library->listBooks(false);
 // Destroy the Library object to trigger the destructor
 unset($library);
 
-?>
+//Brief Explanation 
+//To solve the problem, create two classes: Book and Library. The Book class features properties with different access levels (public, protected, private) to demonstrate encapsulation, including methods for getting details, updating the price, and handling undefined methods.
+//The Library class manages a private array of books and a public name, with methods for adding, removing, and listing books, and includes a destructor to display a message upon object destruction.
